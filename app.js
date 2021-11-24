@@ -1,6 +1,7 @@
 const app = Vue.createApp({
     data() {
         return {
+            url: 'http://bomas.hu',
             showBooks: true,
             books: [{
                     title: 'name of the wind',
@@ -20,16 +21,6 @@ const app = Vue.createApp({
     methods: {
         toggleShowBooks() {
             this.showBooks = !this.showBooks
-        },
-        handleEvent(e, data) {
-            console.log(e, e.type)
-            if (data) {
-                console.log(data)
-            }
-        },
-        handleMousemove(e) {
-            this.x = e.offsetX
-            this.y = e.offsetY
         }
     }
 })
