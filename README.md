@@ -1,1 +1,1 @@
-# vue-reaction-timer from net ninja
+# first vue with CDN, album selector from net ninja
